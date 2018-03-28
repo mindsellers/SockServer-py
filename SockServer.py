@@ -40,4 +40,4 @@ class SockServer(object):
                 
 
 
-SockServer('localhost',8000)
+SockServer('localhost',8000).listen()
